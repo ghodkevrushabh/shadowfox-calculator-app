@@ -1,7 +1,7 @@
 # ShadowFoxCalculator 🧮
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-1.9.0-purple?style=for-the-badge&logo=kotlin)
-![Android Studio](https://img.shields.io/badge/Android%20Studio-Ladybug-green?style=for-the-badge&logo=android-studio)
+![Android Studio](https://img.shields.io/badge/Android%20Studio-Otter-green?style=for-the-badge&logo=android-studio)
 ![Material Design 3](https://img.shields.io/badge/Design-Material%203-blue?style=for-the-badge&logo=material-design)
 
 **A powerful, scientific Android calculator application built with Kotlin and Material Design 3.** This app goes beyond basic arithmetic by featuring a real-time expression evaluator, scientific functions, memory operations, and a seamless dark/light mode toggle. It leverages the robust **exp4j** library for precise mathematical parsing.
@@ -40,7 +40,7 @@
 
 | Light Mode | Dark Mode | Scientific Ops | Complex Log |
 |:---:|:---:|:---:|:---:|
-| <img src="screenshots/day_mode_calc.png" width="200" alt="Light Mode"> | <img src="screenshots/night_mode_calc.png" width="200" alt="Dark Mode"> | <img src="screenshots/sqrt_operations.png" width="200" alt="Scientific Ops"> | <img src="screenshots/log_operations.png" width="200" alt="Log Operations"> |
+| <img src="screenshots/day_mode_calc.jpg" width="200" alt="Light Mode"> | <img src="screenshots/night_mode_calc.jpg" width="200" alt="Dark Mode"> | <img src="screenshots/sqrt_operations.jpg" width="200" alt="Scientific Ops"> | <img src="screenshots/log_operations.jpg" width="200" alt="Log Operations"> |
 
 ---
 
@@ -86,11 +86,13 @@ private fun evaluateExpression(expressionString: String): String {
     }
 }
 ```
-Theme Toggle Persistence
+___
+
+## Theme Toggle Persistence :
+
 We use SharedPreferences to remember the user's choice even after the app closes.
 
-Kotlin
-
+```
 binding.themeToggleButton.setOnClickListener {
     isDarkMode = !isDarkMode
     // Save preference
@@ -102,3 +104,4 @@ binding.themeToggleButton.setOnClickListener {
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
     }
 }
+```
