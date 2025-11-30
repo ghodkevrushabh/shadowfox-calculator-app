@@ -40,7 +40,7 @@
 
 | Light Mode | Dark Mode | Scientific Ops | Complex Log |
 |:---:|:---:|:---:|:---:|
-| <img src="screenshots/day_mode_calc.jpg" width="200" alt="Light Mode"> | <img src="screenshots/night_mode_calc.jpg" width="200" alt="Dark Mode"> | <img src="screenshots/sqrt_operations.jpg" width="200" alt="Scientific Ops"> | <img src="screenshots/log_operations.jpg" width="200" alt="Log Operations"> |
+| <img src="day_mode_calc.jpg" width="200" alt="Light Mode"> | <img src="night_mode_calc.jpg" width="200" alt="Dark Mode"> | <img src="sqrt_operations.jpg" width="200" alt="Scientific Ops"> | <img src="log_operations.jpg" width="200" alt="Log Operations"> |
 
 ---
 
